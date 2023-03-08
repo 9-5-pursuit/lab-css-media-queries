@@ -65,3 +65,5 @@ You need to edit this file to include the link for your instructors.
 **ADD link to your GitHub Pages Here**
 
 Your instructor will us a combination of reading your code and viewing the results of your code to determine a grade.
+
+https://jameel914.github.io/lab-css-media-queries/
