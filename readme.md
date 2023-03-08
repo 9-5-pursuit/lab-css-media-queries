@@ -1,3 +1,4 @@
+<details>
 # Media Queries Lab
 
 TekNews has a great looking website but it was only built for the desktop! Update the website so it can look good on any device.
@@ -61,7 +62,9 @@ To complete the tests in this lab, you will need to overwrite some styles depend
 You will host the results of this lab on GitHub Pages (please see the guide to hosting on GitHub pages for detailed instructions).
 
 You need to edit this file to include the link for your instructors.
-
+</details>
 **ADD link to your GitHub Pages Here**
+
+[MySubmission link](https://davep80.github.io/cssmediaqueries/)
 
 Your instructor will us a combination of reading your code and viewing the results of your code to determine a grade.
