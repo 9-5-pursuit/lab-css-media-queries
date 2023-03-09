@@ -38,7 +38,7 @@ header {
   text-align: center;
 
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 1fr;
 }
 
 header h1 {
@@ -91,11 +91,11 @@ nav a:hover {
 main {
   margin: 3rem auto;
 
-  width: 70%;
+  width: 90%;
 
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 3rem;
+  grid-template-columns: 1fr;
+  gap: 50px 0;
 }
 
 /* Articles */
@@ -130,27 +130,33 @@ aside a:hover {
 footer {
   background: #040f16;
   color: #ececec;
-  padding: 50px 15% 25px;
+  padding: 25px;
+  text-align: center;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 footer h4 {
-  border-bottom: 1px solid #de6b48;
+  text-align: center;
+  border-bottom: none;
   margin: 0;
   max-width: 250px;
   padding-bottom: 5px;
 }
 
 footer ul {
+  place-items: center;
+  display: grid;
   color: #de6b48;
   list-style: square;
-  padding-left: 1rem;
+  margin: 0;
 }
 
 footer ul li {
+  list-style-type: none;
   margin: 1rem 0;
+  padding-right: 50px;
 }
 
 footer a {
@@ -163,3 +169,51 @@ footer a:hover {
 }
 
 /* Media queries */
+
+@media (min-width: 768px) {
+  /* header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px 0;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  footer ul li {
+    list-style-type: none;
+  }
+
+  footer h4 {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 1279px) { */
+  .splash {
+    display: none;
+  }
+  main {
+    width: 90%;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer section h4 {
+    grid-column: 1 / span 2;
+  }
+}
