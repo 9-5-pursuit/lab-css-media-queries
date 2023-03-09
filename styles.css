@@ -6,6 +6,7 @@
 
 /* General styles */
 
+
 html,
 body {
   margin: 0;
@@ -127,6 +128,7 @@ aside a:hover {
 
 /* Footer */
 
+
 footer {
   background: #040f16;
   color: #ececec;
@@ -163,3 +165,55 @@ footer a:hover {
 }
 
 /* Media queries */
+
+
+@media (min-width: 768px) and (max-width: 1279){
+  .splash{
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279) {
+  main{
+    width: 90%;
+  }
+} 
+
+@media (min-width: 768px) and (max-width: 1279){ 
+  footer {
+   
+    grid-template-columns: repeat(2, 0);
+  }
+}
+
+@media (min-width: 768px) {
+  header{
+     grid-template-columns: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  main{
+     grid-template-columns: repeat(1, 0);
+    row-gap: 50px;
+  }
+}
+
+@media (min-width: 768px){ 
+  footer {
+   padding: 25px;
+   text-align: center;
+  }
+}
+
+@media (min-width: 768px) { 
+  footer {
+   list-style: none;
+  }
+}
+
+@media (min-width: 768px) { 
+  footer {
+     border-bottom: none
+  }
+}
