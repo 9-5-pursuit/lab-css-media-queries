@@ -181,7 +181,7 @@ footer a:hover {
   footer h4 {
     border: none;
   }
-  /*--vv-- not in instructions, but appears like this in the preview images. not sure if there is a better way to do this*/
+  /*--vv-- not in instructions for narrow view, only medium, but appears like this in the preview images. not sure if there is a better way to change it for both*/
   .splash {
     display: none;
   }
