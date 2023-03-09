@@ -163,3 +163,45 @@ footer a:hover {
 }
 
 /* Media queries */
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  /* Rules here apply to devices from from 768px to 1279px (inclusive) */
+  .splash {
+    display: none;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  /* Rules here apply to devices less than 768px (inclusive) */
+  header,
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    row-gap: 50px;
+    column-gap: 0;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+  footer h4 {
+    border-bottom-style: none;
+  }
+}
