@@ -181,6 +181,10 @@ footer a:hover {
   footer h4 {
     border: none;
   }
+  /*--vv-- not in instructions, but appears like this in the preview images. not sure if there is a better way to do this*/
+  .splash {
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .splash {
