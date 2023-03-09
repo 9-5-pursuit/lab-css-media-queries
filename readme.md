@@ -64,4 +64,6 @@ You need to edit this file to include the link for your instructors.
 
 **ADD link to your GitHub Pages Here**
 
+https://hillaryb110.github.io/HillaryB110.github.io-css-media-queries/
+
 Your instructor will us a combination of reading your code and viewing the results of your code to determine a grade.
