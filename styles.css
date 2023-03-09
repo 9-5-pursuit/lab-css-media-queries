@@ -85,7 +85,6 @@ nav a:hover {
   padding: 20vh 0;
   text-align: center;
 }
-
 /* Main */
 
 main {
@@ -163,3 +162,36 @@ footer a:hover {
 }
 
 /* Media queries */
+
+/* SMALL */
+@media screen and (max-width: 768px) {
+  header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+    row-gap: 50px;
+  }
+  footer {
+    padding: 25px;
+    text-align: center;
+    border-bottom: none;
+  }
+  footer ul {
+    list-style: none;
+  }
+}
+
+/* MEDIUM */
+@media screen and (max-width: 1279px) {
+  .splash {
+    display: none;
+  }
+  main {
+    width: 90%;
+  }
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
