@@ -180,10 +180,6 @@ footer a:hover {
     text-align: center;
   }
 
-  footer section {
-    text-align: center;
-  }
-
   footer ul {
     list-style: none;
   }
@@ -191,7 +187,6 @@ footer a:hover {
   footer h4 {
     border-bottom: none;
     padding-left: 30px;
-    text-align: center;
   }
 }
 
