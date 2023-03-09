@@ -148,6 +148,7 @@ footer h4 {
 footer ul {
   place-items: center;
   display: grid;
+  grid-template-rows: repeat(3, 1fr);
   color: #de6b48;
   list-style: square;
   margin: 0;
@@ -201,6 +202,9 @@ footer a:hover {
     display: none;
   }
   main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 50px;
     width: 90%;
   }
 
@@ -215,5 +219,6 @@ footer a:hover {
 
   footer section h4 {
     grid-column: 1 / span 2;
+    text-align: center;
   }
 }
