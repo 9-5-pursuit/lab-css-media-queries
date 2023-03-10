@@ -64,4 +64,6 @@ You need to edit this file to include the link for your instructors.
 
 **ADD link to your GitHub Pages Here**
 
+https://erimed33.github.io/media-queries-lab-css/
+
 Your instructor will us a combination of reading your code and viewing the results of your code to determine a grade.
